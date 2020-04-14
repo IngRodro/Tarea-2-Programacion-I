@@ -56,24 +56,24 @@
             this.cONTROLToolStripMenuItem.Size = new System.Drawing.Size(73, 20);
             this.cONTROLToolStripMenuItem.Text = "CONTROL";
             // 
-            // uSUARIOSToolStripMenuItem
+            // aLUMNOSToolStripMenuItem
             // 
-            this.aLUMNOSToolStripMenuItem.Name = "uSUARIOSToolStripMenuItem";
-            this.aLUMNOSToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aLUMNOSToolStripMenuItem.Name = "aLUMNOSToolStripMenuItem";
+            this.aLUMNOSToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.aLUMNOSToolStripMenuItem.Text = "ALUMNOS";
             this.aLUMNOSToolStripMenuItem.Click += new System.EventHandler(this.aLUMNOSToolStripMenuItem_Click);
             // 
             // mATERIASToolStripMenuItem
             // 
             this.mATERIASToolStripMenuItem.Name = "mATERIASToolStripMenuItem";
-            this.mATERIASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.mATERIASToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.mATERIASToolStripMenuItem.Text = "MATERIAS";
             this.mATERIASToolStripMenuItem.Click += new System.EventHandler(this.mATERIASToolStripMenuItem_Click);
             // 
             // nOTASToolStripMenuItem
             // 
             this.nOTASToolStripMenuItem.Name = "nOTASToolStripMenuItem";
-            this.nOTASToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nOTASToolStripMenuItem.Size = new System.Drawing.Size(131, 22);
             this.nOTASToolStripMenuItem.Text = "NOTAS";
             this.nOTASToolStripMenuItem.Click += new System.EventHandler(this.nOTASToolStripMenuItem_Click);
             // 
@@ -84,7 +84,10 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
             this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmMenu";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.frmMenu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
